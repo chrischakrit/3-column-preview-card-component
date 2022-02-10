@@ -20,34 +20,35 @@ main {
   margin: 0 auto;
   width: 795px;
   margin-top: 6rem;
-  border-radius: 20px;
 }
 article {
   width: 265px;
-  height: 420px;
+  height: 430px;
   text-align: left;
 }
 #sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
 #SUVS {
   background-color: hsl(184, 100%, 22%);
 }
 #luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 img {
   margin: 40px 40px 0;
   height: 35px;
 }
-.heading {
+h1 {
   font-family: "Big Shoulders Display", cursive;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--theme-color);
   margin: 25px 40px 0;
 }
-.content {
+p {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 13px;
@@ -65,6 +66,23 @@ button {
 }
 footer {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 10px;
   text-align: center;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 265px;
+    margin-top: 6rem;
+  }
+  #sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  #luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
 }
