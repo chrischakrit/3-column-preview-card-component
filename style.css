@@ -19,7 +19,7 @@ main {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 795px;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 article {
   width: 265px;
@@ -56,13 +56,26 @@ p {
   margin: 25px 40px 30px;
   line-height: 1.7;
 }
-button {
+input {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   background-color: var(--theme-color);
   margin: 40px;
   padding: 10px 25px;
+  border: 0;
   border-radius: 1.2rem;
+}
+input:hover {
+  cursor: pointer;
+}
+.input-1 {
+  color: hsl(31, 77%, 52%);
+}
+.input-2 {
+  color: hsl(184, 100%, 22%);
+}
+.input-3 {
+  color: hsl(179, 100%, 13%);
 }
 footer {
   font-family: "Lexend Deca", sans-serif;
