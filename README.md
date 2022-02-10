@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL:
+- Solution URL: https://chrischakrit.github.io/3-column-preview-card-component/
 
 ### Built with
 
