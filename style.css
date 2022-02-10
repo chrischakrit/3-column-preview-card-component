@@ -1,23 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --theme-color: hsl(0, 0%, 95%);
+}
+
 body {
-  background-color: hsl(0, 0%, 95%);
+  background-color: var(--theme-color);
 }
 main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 auto;
-  width: 900px;
+  width: 795px;
+  margin-top: 6rem;
   border-radius: 20px;
 }
 article {
-  width: 300px;
-  height: 500px;
-  border: 1px solid #000;
-  text-align: center;
+  width: 265px;
+  height: 420px;
+  text-align: left;
 }
 #sedans {
   background-color: hsl(31, 77%, 52%);
@@ -28,6 +36,35 @@ article {
 #luxury {
   background-color: hsl(179, 100%, 13%);
 }
+img {
+  margin: 40px 40px 0;
+  height: 35px;
+}
+.heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--theme-color);
+  margin: 25px 40px 0;
+}
+.content {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 25px 40px 30px;
+  line-height: 1.7;
+}
+button {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: var(--theme-color);
+  margin: 40px;
+  padding: 10px 25px;
+  border-radius: 1.2rem;
+}
 footer {
+  font-family: "Lexend Deca", sans-serif;
   text-align: center;
+  margin-top: 10px;
 }
